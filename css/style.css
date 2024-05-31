@@ -5,6 +5,18 @@
     --light: #FAFAFB;
     --dark: #12141D;
 }
+
+.bg-danger {
+    background-color: var(--primary) !important;
+}
+
+.bg-warning {
+    background-color: var(--secondary) !important;
+}
+
+.bg-dark {
+    background-color: var(--secondary) !important;
+}
 .text-primary {
     color: #009A44 !important;
 }
