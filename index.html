@@ -30,6 +30,27 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <style>
+
+        .video-banner, #home{
+            margin: 0;
+            padding: 0;
+        }
+        
+        .video-banner {
+            position: relative;
+            width: 100%;
+            height: 100vh; /* Full viewport height */
+        }
+        .video-banner iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+         
+    </style>
 </head>
 
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="51">
@@ -82,14 +103,17 @@
                     <h3 class="text-primary mb-3">Je suis</h3>
                     <h1 class="display-3 mb-3"> Denis Charles Kouassi</h1>
                     <h2 class="typed-text-output d-inline"></h2>
-                    <div class="typed-text d-none">maître-d ’œuvre des réformes de sécurité sociale à la CNPS</div>
+                    <div class="typed-text d-none">Maître-d ’œuvre des réformes de sécurité sociale à la CNPS</div>
                     <div class="d-flex align-items-center pt-5">
                         <a href="" class="btn btn-primary py-3 px-4 me-5">Télécharger Mon CV</a>
-                        <button type="button" class="btn-play" data-bs-toggle="modal"
-                            data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-bs-target="#videoModal">
-                            <span></span>
-                        </button>
-                        <h5 class="ms-4 mb-0 d-none d-sm-block">Play Video</h5>
+                        
+                        <a href="tel:+22893257645">
+                            <button type="button" class="btn-play">
+                                <i class="fas fa-phone-alt"></i>
+                            </button>
+                        </a>
+
+                        <h5 class="ms-4 mb-0 d-none d-sm-block">Appelez</h5>
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -100,26 +124,44 @@
     </div>
     <!-- Header End -->
 
+    <!--------------------------------Video Part----------------------------->
+    <!-----------Video Banner Start 1 -------------------->
+    <div class="video-banner">
+<iframe id="video-iframe" width="100%" height="100%" src="https://www.youtube.com/embed/mjgAVZlyhJE?autoplay=1&controls=0&loop=1&playlist=mjgAVZlyhJE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<!-------------Video Banner End--------------------->
+<div class="loader"></div>  
 
-    <!-- Video Modal Start -->
-    <div class="modal modal-video fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content rounded-0">
-                <div class="modal-header">
-                    <h3 class="modal-title" id="exampleModalLabel">Youtube Video</h3>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <!-- 16:9 aspect ratio -->
-                    <div class="ratio ratio-16x9">
-                        <iframe class="embed-responsive-item" src="" id="video" allowfullscreen allowscriptaccess="always"
-                            allow="autoplay"></iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
+
+<!-----------Video Banner Start 2 -------------------->
+    <div class="video-banner">
+<iframe  width="100%" height="100%" src="https://www.youtube.com/embed/1ClnMnULPKc?" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<!-------------Video Banner End--------------------->
+<div class="loader"></div> 
+
+
+<!-----------Video Banner Start 3 -------------------->
+    <div class="video-banner">
+<iframe  width="100%" height="100%" src="https://www.youtube.com/embed/VE1Tx3QK_fA?" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<!-------------Video Banner End --------------------->
+<div class="loader"></div> 
+
+<!-----------Video Banner Start 3 -------------------->
+<div class="video-banner">
+    <iframe  width="100%" height="100%" src="https://www.youtube.com/embed/HJS23fjRU3w?" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
-    <!-- Video Modal End -->
+    <!-------------Video Banner End --------------------->
+
+
+
+ 
+
+
+
+     
+    
 
 
     <!-- About Start -->
@@ -305,7 +347,59 @@
     </div>
     <!-- Expertise End -->
 
+ <!-- Experience Start -->
+ <div class="experience" id="experience">
+    <div class="container">
+        <header class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+            <marquee behavior="" direction="right" style="font-weight: bold; font-size: 24px;">Points forts</marquee>
 
+            <h2><marquee behavior="" direction="left"><span style="color: #009A44; font-weight: bold; font-size: 24px;">Denis Charles Kouassi</span></marquee> </h2>
+        </header>
+        <div class="timeline">
+            <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
+                <div class="timeline-text">
+                    <div class="timeline-date">Numéro-1</div>
+                    <h2><span style="color: #009A44;">Denis Charles Kouassi</span></h2>
+                    <h4>Leader Ethics</h4>
+                    <p>
+                        Cost killer, les bénéfices nets de son institution sont en croissance continue depuis plus de 10 ans;  Vision d’investissements financiers stratégiques
+                </div>
+            </div>
+            <div class="timeline-item right wow slideInRight" data-wow-delay="0.1s">
+                <div class="timeline-text">
+                    <div class="timeline-date">Numéro-2</div>
+                    <h2><span style="color: #009A44;">Denis Charles Kouassi</span></h2>
+                    <h4>Expert Social </h4>
+                    <p>
+                        Maîtrise poussée de la sécurité sociale, et de son impact sur le développement au plan macroéconomique et de réduction de la pauvreté
+                    </p>
+                </div>
+            </div>
+            <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
+                <div class="timeline-text">
+                    <div class="timeline-date">Numéro-3</div>
+                    <h2><span style="color: #009A44;">Denis Charles Kouassi</span></h2>
+                    <h4>Adaptabilité Internationale</h4>
+                    <p>
+                        Résilient et conforme le fonctionnement de son institution aux meilleurs standards internationaux notamment ceux de l’AISS
+                    </p>
+                </div>
+            </div>
+            <div class="timeline-item right wow slideInRight" data-wow-delay="0.1s">
+                <div class="timeline-text">
+                    <div class="timeline-date">Numéro-4</div>
+                    <h2><span style="color: #009A44;">Denis Charles Kouassi</span></h2>
+                    <h4>Top Manager</h4>
+                    <p>
+                        Impulse la direction de développement de l’Institution avec pragmatisme et humanisme ; Humble et garde la tête froide peu importe les circonstances
+                    </p>
+                </div>
+            </div>
+        
+        </div>
+    </div>
+</div>
+<!--  Experience End -->
     <!-- Service Start -->
     <div class="container-fluid bg-light my-5 py-6" id="service">
         <div class="container">
